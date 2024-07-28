@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+    
+    
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #container{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        background-color: rgb(255, 0, 0);
+        margin-inline:10px ;
+        overflow-y: auto;
+    }
+    .flags{
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+        border: 1px solid black;
+
+    }
+    .population{
+        text-align: center;
+    }
+</style>
+<body>
+    <button id="btn" onclick="getCountryData()">
+        get country data
+    </button>
+    <div id="container">
+
+    </div>
+
+
+
+
+
+    <h4 id="heading">welcome to javascript</h4>
+    <h3 id="heading1">Welcome to js</h3>
+    <input type="checkbox">
+
+    <div>
+        <div>
+            <select id="colorSelect">
+                <option>red</option>
+                <option>green</option>
+                <option>white</option>
+                <option>black</option>
+            </select>
+            <button onclick="remove()">Remove </button><br><br>
+        
+        </div>
+        <div>
+            <select id="colorSelect2">
+                <option>red</option>
+                <option>green</option>
+                <option>white</option>
+                <option>black</option>
+            </select>
+            <button onclick="changeColor()">Change Color</button>
+            <p id="sampleText">Sample test..</p>
+        </div>
+        <div>
+            <h2>Return Firstname and Lastname</h2>
+            <form id="form1">
+                First name: <input type="text" id="Fname" name="fname" value="David"><br>
+                Last name: <input type="text" id="Lname" name="lname" value="Beckham"><br>
+                <input type="submit" id="btn" value="Submit">
+            </form>
+        </div>
+        <div>
+            
+            <button onclick="Random_img()">Display Image</button>
+            <div id="displayimage"></div>
+
+
+        </div>
+
+        
+    </div> 
+
+</body>
+<script src="Promise.js"></script>                                                               
+</html>
