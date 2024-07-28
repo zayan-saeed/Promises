@@ -68,9 +68,3 @@ for (let i=0; i<result.length;i++){
     console.log("error occured");
 })
 }
-
-
-arr=[1,2,3,4,5,6,7]
-
-const na=arr.map((ele)=>{return ele*3})
-console.log(na);
